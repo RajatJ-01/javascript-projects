@@ -40,9 +40,6 @@ If you'd like to contribute to the development of this Password Generator projec
 
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
-## Contact:
-
-For any questions, feedback, or support requests, please contact [Your Name] at [Your Email Address].
 
 ## Disclaimer:
 
