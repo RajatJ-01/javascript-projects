@@ -26,8 +26,5 @@ This project utilizes the Unsplash API to fetch images.
 License:
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-Contact:
-For any questions, feedback, or support requests, please contact [Your Name] at [Your Email Address].
-
 Disclaimer:
 This image search engine website is provided as-is without any warranties. The developers are not responsible for any misuse or unauthorized use of the Unsplash API.
