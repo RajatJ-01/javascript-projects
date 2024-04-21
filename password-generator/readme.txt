@@ -45,6 +45,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 This Password Generator project is provided as-is without any warranties. The developers are not responsible for any misuse or unauthorized use of the generated passwords.
 
----
-
-Feel free to customize this readme.txt file with additional information or sections specific to your project's requirements.
