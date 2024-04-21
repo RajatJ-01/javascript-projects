@@ -26,8 +26,5 @@ This project is inspired by various online resources and tutorials on form valid
 License:
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-Contact:
-For any questions, feedback, or support requests, please contact [Your Name] at [Your Email Address].
-
 Disclaimer:
 This form validation project is provided as-is without any warranties. The developers are not responsible for any misuse or unauthorized use of the form validation techniques implemented herein.
