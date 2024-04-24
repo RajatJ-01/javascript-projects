@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/820fbe6fa7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="nav">
+        <img src="images/pic.png" id="profile">
+        <hr>
+        <ul>
+            <li id="About" onclick="action()"><i class="fa-solid fa-user"></i>About</li>
+            <li id="exe_button" onclick="exp()"> <i class="fa-solid fa-arrow-trend-up"></i>Expirence</li>
+            <li onclick="proj()" id="project_button"><i class="fa-solid fa-folder"></i>Projects</li>
+            <li onclick="ski()" id="skill_button"><i class="fa-solid fa-square-poll-vertical"></i>Skills</li>
+            <li onclick="edu()" id="education_button"><i class="fa-solid fa-user-graduate"></i>Education</li>
+            <li onclick="cont()" id="contact_button"><i class="fa-solid fa-envelope"></i>Contact</li>
+            <li id="downloadBtn"><i class="fa-solid fa-file"></i>Resume</li>
+        </ul>
+    </div>
+<div class="content">
+    <div class="intro">
+        <p>Hi, I'm <span> Rajat Pratap Singh </span></p>
+        <p id="type-rite"></p>
+        <p id="ac">Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving<br> a complex
+             and challenging real-world problems.</p>
+             <button><i class="fa-brands fa-linkedin fa-2xl"></i></button>
+             <button id="whatsap"><i class="fa-brands fa-whatsapp fa-2xl"></i></button>
+    </div>
+    <div class="about">
+        <h1>ABOUT</h1>
+        <p id="about-contenet">I am a Computer Science Student at Raja Balwant Singh Engineering Technical Campus. I enjoy problem-solving  
+            <p id="about-contenet-1"> and coding. Always strive to bring 100% to the work I do. I have worked on technologies like Python,Django, </p>
+
+            <p id="about-contenet-2">  Flask, HTML5, CSS, Java, C++ , MySQL, Tinkter, Data Science during my bachelor's.</p>
+            <p id="about-contenet-3"> I am passionate about developing complex applications that solve real-world problems impacting millions of users.</p>
+    
+    <p id="tech"><b>Languages:</b> Python, Java, JavaScript, C, C++, HTML/CSS</p>
+      <p id="tech-1">  <b>Databases:</b> MySQL, MongoDB </p>
+        <p id="tech-2"><b>Libraries:</b> NumPy, Pandas, OpenCV</p>
+        <p id="tech-3"><b>Frameworks:</b> Flask, Django, Keras, TensorFlow, PyTorch, Bootstrap, Apache Beam</p> 
+        <p id="tech-4"><b>Tools & Technologies:</b> Git</p>
+    
+    </div>
+    <div class="experience">
+        <h1>EXPERIENCE</h1>
+        <div class="work">
+            <p>Ingenious Research Solution Pvt. Limited <br></p>
+                      <p id="amity">  Amity University, Noida</p>
+            <hr>
+            <p id="intern">Data Science Intern</p>
+            <ul id="Ingenious">
+                <li>Work under the guidance of <b>Dr. M.S Prashad Director of Amity
+                Institute of Space Science and Technology</b> and <b>Former DRDO
+                Scientist, also awarded with 2-times Best DRDO Scientist</b> and
+                <b>Dr. Shivani Verma Associate Professor at AISST</b> and <b>Youngest
+                DRDO Scientist</b>.</li>
+                <li>
+                Developed a Face Recognition Software <b>(DIVYA NETRA)</b> by
+                using Deep Learning.</li>
+                <li>
+                Represented <b>Amity University</b> and Presented <b>Divya Netra</b> at
+                <b>3rd Anniversary of National Education Policy</b> , New Delhi and
+                at <B>Indian Space Conclave 2023</B> , Manekshaw Centre , New
+                Delhi as an Exhibitor.</li>
+                </ul>
+        </div>
+    </div>
+    <div class="projects">
+        <h1>PROJECTS</h1>
+        <div class="project-content">
+
+            <div class="chronic">
+                <img src="images/project-ml-1.jpg">
+                <p id="chr">Chronic Kidney Disease Classification</p>
+                <p id="chr-content">Chronic Kidney Disease using Machine Learning for Enhanced Diagnostics</p>
+            </div>
+
+            <div class="Divya"> 
+                <img src="images/project-ml-2.jpg">
+                <p id="div">Divya Netra</p>
+                <p id="div-content">Deep Learning based Facical Recognition Software</p>
+            </div>
+
+            <div class="e-commerce"> 
+                <img src="images/project-ml-3.jpg">
+                <p id="ec">E- Commerce Website using<br> JSP & SERVLET</p>
+                <p id="ec-content">E-Commerce Website develop using Advanced JAVA </p>
+            </div>
+
+            <div class="banking"> 
+                <img src="images/project-ml-1.jpg">
+                <p id="ban">GUI Based Banking Application</p>
+                <p id="ban-content">Dynamic GUI based banking application build develop using JAVA</p>
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <h1>SKILLS</h1>
+        <div class="languages">
+            <p>Languages and Databases</p>
+            <hr>
+            <img src="images/python-logo-1-300x300.jpg">
+            <img src="images/java 1.webp">
+            <img src="images/javascript.png">
+            <img src="images/html5-300x300.jpg">
+            <img src="images/css3-300x300.jpg">
+            <img src="images/mysql-logo-1-300x300.jpg">
+            <br>
+            <span>Python</span>
+            <span id="j1">Java</span>
+            <span id="j2">JavaScript</span>
+         <span id="j3">Html</span>
+            <span id="j4">Css</span>
+            <span id="j5">MySQL</span> 
+        </div>
+        <div class="libraries">
+            <p id="lib">Libraries</p>
+            <hr>
+            <img src="images/numpy-logo-1-500x500.jpg">
+            <img src="images/pandas-logo-2-500x500.jpg">
+            <img src="images/opencv-logo-1-500x500.jpg">
+            <img src="images/sk-learn-logo-1-500x500.jpg">
+            <img src="images/matplotlib-logo-1-500x500.jpg">
+            <br>
+            <span>NumPy</span>
+            <span id="l1">Pandas</span>
+            <span id="l2">OpenCV</span>
+         <span id="l3"> scikit-learn</span>
+            <span id="l4">matplotlib</span>
+        </div>
+        <div class="framework">
+            <p>Frameworks</p>
+            <hr>
+            <img src="images/django-logo.webp">
+            <img src="images/flask-logo.png">
+            <img src="images/bootstrap.png">
+            <img src="images/keras-logo.png">
+            <br>
+            <span>Django</span>
+            <span id="f1">Flask</span>
+            <span id="f2">Bootstrap</span>
+         <span id="f3">Keras</span>  
+        </div>
+        <div class="other">
+            <p>Others</p>
+            <hr>
+            <img src="images/git.png">
+            <br><br>
+            <span>Git</span>
+        </div>
+    </div>
+    <div class="education">
+        <h1>EDUCATION</h1>
+        <div class="college">
+            <p>Raja Balwant Singh Engineering Technical Campus</p>
+            <p id="clg1">Bichpuri ,Agra ,UP</p>
+            <p id="clg2"><b>Degree:</b> Bachelor of Technology in Computer Science and Engineering</p>
+            <p id="clg3"><b>CGPA:</b>7.0</p>
+            <p id="clg4"><b>Relevant Courseworks:</b></p>
+            <ul id="rel-course">
+                <li>Data Structures and Algorithms</li>
+                <li>Database Management Systems</li>
+                <li>Operating Systems</li>
+                <li>Machine Learning</li>
+                <li>Image Processing</li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact">
+        <h1>CONTACT</h1>
+        
+        <P><i class="fa-solid fa-square-phone fa-sm"></i>7500360570</P>
+        <p id="c1"><i class="fa-solid fa-at fa-sm"></i>rajat.rs188@gmail.com</p>
+    </div>
+</div>
+<script src="jscript.js"></script>
+</body>
+</html>
